@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* navbar css */
+.logo {
+    width: 50px;
+    border-radius: 50%;
+}
+
+.signup {
+    background-color: #6290e6;
+    border-radius: 13px;
+}
+
+.hero-section {
+    background-image: url(img/section-bg.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    
+}
+
+/* testimonial */
+
+
+
+.card {
+    margin: 0 0.5em;
+    border-radius: 0;
+    box-shadow: 2px 6px 8px rgba(#f18989, #aae3d7, #d3e5f3);
+    font-size: 0.9em;
+    height: 100%;
+    padding: 10px;
+}
+
+ .card-img-top {
+    max-width: 100px;
+    border-radius: 50%;
+    margin: 15px auto;
+    box-shadow: 0 8px 20px -4px rgb(24, 93, 120);
+    width: 100px;
+    height: 100px;
+ }
+ .card-text {
+    font-size: 18px;
+    color: #ffffff;
+    padding-bottom: 12px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ }
+
+ /* collector */
+
+ .card-collect {
+    margin: 0 15px;
+    height: 500px;
+    width: 300px;
+    padding: 2em;
+    border: 2px solid rgb(255, 254, 254);
+    box-shadow:  6px 8px 10px #888888;
+ }
+
+ .descrip {
+    margin: 7px auto;
+    padding: 2px;
+    font-size: 14px;
+ }
+
+ 
